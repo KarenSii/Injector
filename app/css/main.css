@@ -1,0 +1,183 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+* {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em; }
+
+body {
+  overflow-x: hidden; }
+
+#primero, #segundo, #tercero, #cuarto, #uno, #dos, #tres, #cuatro {
+  display: none;
+  padding: 4%;
+  background: #00426d;
+  color: #fff;
+  position: relative;
+  text-align: justify;
+  font-size: 1em; }
+
+.iconService {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.iconServiceM {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.labelButton {
+  font-size: 1.5em;
+  color: #00426d !important;
+  text-align: center; }
+
+#intro {
+  color: #00426d;
+  text-align: center; }
+
+#titOmn {
+  text-align: center;
+  font-weight: bold;
+  color: #00426d; }
+
+.imgOmn {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.parrafoOmn {
+  text-align: center; }
+
+hr {
+  border-top: 1px solid #00426d; }
+
+.sliderHr {
+  border-top: 3px solid #FFF; }
+
+.slideHrsm {
+  border-top: 2px solid #FFF; }
+
+.sliderCap {
+  font-size: 3em; }
+
+.sliderCapsm {
+  font-size: 2em; }
+
+.sliderCapxs {
+  font-size: 1.4em; }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  background-color: #00426d; }
+
+.bgCasosEx {
+  background: #00aeef; }
+
+.txtCasosEx {
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.txtBeneficios {
+  font-weight: bold;
+  color: #00426d;
+  text-align: center;
+  /*padding-top: 1em;*/
+  padding-bottom: 1em; }
+
+.circulo {
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #00aeef;
+  position: absolute;
+  top: 600%;
+  margin-left: 40%; }
+
+.linea {
+  border: 1px solid #00aeef;
+  width: 100%; }
+
+.txtDemo {
+  color: #00426d;
+  font-size: 1.3em; }
+
+.labelCheck {
+  color: #00426d;
+  font-size: 1.3em; }
+
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.2);
+  /* IE */
+  -moz-transform: scale(1.2);
+  /* FF */
+  -webkit-transform: scale(1.2);
+  /* Safari and Chrome */
+  -o-transform: scale(1.2);
+  /* Opera */
+  padding: 10px; }
+
+.txtTipoproyecto {
+  color: #00426d; }
+
+.container-fluid {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  border-left: 0; }
+
+.btnSecond {
+  background-color: #a5a6a8;
+  color: #FFF; }
+
+.btnFirts {
+  background-color: #00aeef;
+  color: #FFF; }
+
+.imgCaru2 {
+  width: 100%; }
+
+.imgCaru2M {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.txtFooter {
+  padding-top: 3.4em;
+  text-align: justify;
+  color: #00426d; }
+
+.imgFooter {
+  margin-bottom: 50px; }
+
+.PushVideo {
+  width: 100%;
+  left: 0; }
+
+#logo {
+  left: 5%; }

@@ -1,0 +1,270 @@
+.title {
+  text-align: center;
+  border-bottom: 15px; }
+
+.tit-sec {
+  position: relative;
+  color: #00426d;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em; }
+
+.tit-sec-uno {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #00aeef !important;
+  margin-bottom: 1em; }
+
+.tit-sec-dos {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #fff !important;
+  margin-bottom: 1em; }
+
+#apps, #info, #sist {
+  background-color: #00aeef;
+  padding: 2%; }
+
+.cont {
+  position: relative;
+  color: #737373;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center; }
+
+.pf {
+  position: relative;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  vertical-align: center; }
+
+.parr {
+  position: relative;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center; }
+
+.tit {
+  position: relative;
+  color: #00426d;
+  font-family: 'Lato', sans-serif;
+  text-align: center; }
+
+.tit2 {
+  position: relative;
+  color: #00426d;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  margin-bottom: 1em;
+  font-weight: bold;
+  left: 2em; }
+
+.img {
+  position: relative;
+  float: both;
+  left: 6em; }
+
+.img-titl {
+  width: 100%;
+  float: left; }
+
+.txt {
+  position: relative;
+  color: #737373;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center;
+  width: 75%;
+  float: right; }
+
+#p1 {
+  position: relative;
+  margin-top: 4%;
+  padding-left: 8em; }
+
+#p2 {
+  position: relative;
+  margin-top: 1%; }
+
+#p3, #p9 {
+  position: relative;
+  margin-top: 3%; }
+
+#p4, #p8 {
+  position: relative;
+  margin-top: 7%; }
+
+#p5, #p6, #p7 {
+  position: relative;
+  margin-top: 9%; }
+
+#vent {
+  right: 3em; }
+
+#contenido {
+  vertical-align: center;
+  position: relative;
+  margin-top: 6%; }
+
+#uno, #dos, #tres, #cuatro {
+  margin-bottom: 2em; }
+
+.parr1 {
+  position: relative;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 5em; }
+
+.parr2 {
+  position: relative;
+  color: #00426d;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 5em; }
+
+.imgcupon {
+  vertical-align: center;
+  position: relative;
+  left: 3em;
+  margin-bottom: 2em; }
+
+.imgcel {
+  vertical-align: center;
+  position: relative;
+  left: 1em; }
+
+#cuatro {
+  margin-top: 17.5em; }
+
+/*div{
+  border: 1px solid #000;
+}*/
+@media (min-width: 801px) and (max-width: 1200px) {
+  #loc {
+    float: right;
+    display: block;
+    left: -3em; }
+  #p1 {
+    float: left;
+    display: block;
+    right: 2em; }
+  #vent {
+    right: 1em; }
+  #g1 {
+    left: 5.4em; }
+  #g2 {
+    left: 1.8em; }
+  #g3 {
+    left: 1.8em; }
+  #cuatro {
+    margin-top: 18em; } }
+
+@media (min-width: 401px) and (max-width: 800px) {
+  #loc {
+    float: right;
+    width: 40%;
+    left: 0em;
+    bottom: 9em;
+    margin-bottom: -5em; }
+  #p1 {
+    float: left;
+    right: 3em;
+    width: 60%;
+    margin-bottom: -5em; }
+  #vent {
+    right: .7em; }
+  #vjs {
+    left: 15em; }
+  #redes {
+    margin-left: 10em; }
+  #g1 {
+    left: 20em; }
+  #g2 {
+    left: 17em; }
+  #g3 {
+    left: 17em; }
+  #co1, #co2, #co3 {
+    left: 17em;
+    margin-bottom: 3em; }
+  #info {
+    margin-top: 3em; }
+  .imgcupon {
+    left: 3em;
+    width: 80%; }
+  .imgcel {
+    width: 60%;
+    padding-left: 20em; }
+  .parr, .parr1, .parr2 {
+    left: 10em; } }
+
+@media (max-width: 400px) {
+  #loc {
+    float: left;
+    display: block;
+    left: 0em; }
+  #p1 {
+    float: right;
+    display: block;
+    right: 6em; }
+  #vent {
+    right: 1em; }
+  #g1 {
+    left: 7.5em; }
+  #g2 {
+    left: 4em; }
+  #g3 {
+    left: 4em; }
+  #cuatro {
+    margin-bottom: 35em; }
+  #c1 {
+    left: 7em; }
+  .parr1 {
+    left: -2em; }
+  .imgcupon {
+    left: 2em;
+    width: 80%; }
+  .imgcel {
+    left: 7em;
+    width: 35%; }
+  #p8, #p9 {
+    right: 2.5em; }
+  #con1 {
+    margin-bottom: 2em; } }
+
+footer {
+  height: 4em;
+  background-color: #00426d;
+  vertical-align: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 2em;
+  padding-top: 1.5em; }
+
+.info {
+  position: relative;
+  color: #737373;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center; }
+
+.datos {
+  position: relative;
+  color: #737373;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  vertical-align: center; }
