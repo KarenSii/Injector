@@ -14,11 +14,11 @@
 ### **Instalación del proyecto**
 ***
 Al finalizar la clonación del proyecto, dentro de la carpeta que lo contiene, ingresar a la terminal e instalar las dependencias:
-1.  `npm install` para instalar las dependencias de node.
-2.  `bower install` para instalar las dependencias de bower.
-3.  `npm install -g gulp` para instalar las dependencias gulp de manera global, permitiendo asignar los valores del documento package.json
-4.  `npm install browserSync --save-dev` para instalar un plugin de Gulp
-5.  `npm install gulp-inject --save-dev`para instalar un plugin de Gulp que inyecta referencias al index.html
+1. `npm install` para instalar las dependencias de node
+2. `bower install` para instalar las dependencias de bower
+3. `npm install -g gulp` para instalar las dependencias gulp de manera global, permitiendo asignar los valores del documento package.json
+4. `npm install browserSync --save-dev` para instalar un plugin de Gulp
+5. `npm install gulp-inject --save-dev`para instalar un plugin de Gulp que inyecta referencias al index.html
 
 ### **Ejecución del proyecto**
 ***

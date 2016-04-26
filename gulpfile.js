@@ -3,12 +3,17 @@ var gulp = require('gulp');
 var inject = require('gulp-inject');
 var browserSync = require('browser-sync').create();
 
-gulp.task('copia', function(){
+gulp.task('copiai', function(){
    return gulp.src(['./app/img/*.png'])
    .pipe(gulp.dest('./img'))
 });
 
-gulp.task('inject', ['copia'], function() {
+gulp.task('copiav', ['copiai'], function(){
+  return gulp.src(['./app/video/*.{mp4, ogv, webm}'])
+    .pipe(gulp.dest('./video'))
+});
+
+gulp.task('inject', ['copiav'], function() {
   var wiredep = require('wiredep').stream;
   var inject = require('gulp-inject');
 
