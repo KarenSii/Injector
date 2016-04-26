@@ -5,9 +5,11 @@
   "dependencies": {},
   "devDependencies": {
     "bower-sync": "^0.1.1",
-    "browser-sync": "^2.12.3",
+    "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
     "gulp-inject": "^4.0.0",
+    "inject": "^1.0.0-beta2",
+    "node": "0.0.0",
     "wiredep": "^4.0.0"
   },
   "scripts": {
@@ -15,5 +17,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "\"# Injector\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenSii/injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KarenSii/injector/issues"
+  },
+  "homepage": "https://github.com/KarenSii/injector#readme"
 }
